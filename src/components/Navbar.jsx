@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 w-full px-3 md:px-10 lg:px-20 bg-white justify-around">
+        <nav className="sticky top-0 border-b-2 z-50 w-full px-3 md:px-20 lg:px-40 bg-white justify-around">
             <div className="container mx-auto flex justify-between items-center md:py-3 py-2 md:px-6">
                 <div>
                     <img src="https://exmedia.in/images/LOGO%20Svg.svg" className="w-10 md:w-20" alt="Logo" />
@@ -19,9 +19,9 @@ const Navbar = () => {
               
                 <div className="hidden md:flex space-x-6 items-center">
                     <a href="#home" className="hover:text-orange-400 hover:underline">HOME</a>
-                    <a href="#" className="hover:text-orange-400 hover:underline">SERVICE</a>
-                    <a href="#" className="hover:text-orange-400 hover:underline">DELIVERABLES</a>
-                    <a href="#" className="hover:text-orange-400 hover:underline">ABOUT</a>
+                    <a href="#service" className="hover:text-orange-400 hover:underline">SERVICE</a>
+                    <a href="#deliverable" className="hover:text-orange-400 hover:underline">DELIVERABLES</a>
+                    <a href="#about" className="hover:text-orange-400 hover:underline">ABOUT</a>
                     <a href="#" className="hover:text-orange-400 hover:underline">CONTACT</a>
 
                    
